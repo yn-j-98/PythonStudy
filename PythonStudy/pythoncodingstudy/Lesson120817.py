@@ -5,6 +5,8 @@ Created on 2024. 11. 23.
 '''
 
 def solution(numbers):
-    
-    answer = 0
+    sum = 0
+    for i in numbers:
+        sum += i
+    answer = sum / len(numbers)
     return answer
