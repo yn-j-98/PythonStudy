@@ -10,4 +10,5 @@ def solution(array, n):
     for i in array:
         if array ==n:
             answer += i
+            
     return answer
