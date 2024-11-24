@@ -8,7 +8,7 @@ def solution(array, n):
     answer = 0
     
     for i in array:
-        if array ==n:
+        if i ==n:
             answer += i
             
     return answer
