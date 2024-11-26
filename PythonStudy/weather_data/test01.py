@@ -17,6 +17,6 @@ with open(file_path,mode='r') as file :
     for row in reader :# 향상된 for문은    for v in 집합
         a = row[2] ## 12월인 데이터만 출력하고싶어~~
         b = row[-2] # 최저기온
-        
+         
         if a.startswith("Dec") :#if a가 Dec 시작하면 :
             print(a, b) # row가 list 타입이라는 사실도 확인 가능!
