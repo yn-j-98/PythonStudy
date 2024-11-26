@@ -22,7 +22,7 @@ with open(file_path,mode='r') as file :
 
     header = next(reader)
 
-    i = 0
+##    i = 0
     for row in reader :# 향상된 for문은    for v in 집합
         a = row[2] ## 12월인 데이터만 출력하고싶어~~
         b = row[-2] # 최저기온
